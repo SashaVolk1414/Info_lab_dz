@@ -9,6 +9,7 @@ struct Command {
     string name;  // название команды 
     int value;         // числовой параметр (0, если нет) 
 };
+
 void printCommands(const vector<Command>& buffer) {
     for (const auto& cmd : buffer) {
         cout << "Command: " << cmd.name << ", Value: " << cmd.value << std::endl;
@@ -285,4 +286,5 @@ cout << "Увеличение всех элементов вектора на 10
     cout << "Average pressure: " << avgVal << endl;*/
     
 }
+
 
